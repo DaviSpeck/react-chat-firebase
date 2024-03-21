@@ -25,6 +25,7 @@ const ChatBox = () => {
         );
         const unsubscribe = onSnapshot(q, (querySnapshot) => {
             const messages: any[] = [];
+            console.log(querySnapshot)
             querySnapshot.forEach((doc) => {
                 messages.push({ ...doc.data(), id: doc.id });
             });

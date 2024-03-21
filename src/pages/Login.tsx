@@ -27,7 +27,7 @@ const Login = () => {
             <div className="hero-content text-center">
                 <div className="max-w-md">
                     <h1 className="text-5xl font-bold text-slate-950">Olá, seja bem vindo!</h1>
-                    <p className="py-6 text-gray-600">Conecte com o Google e tira suas dúvidas sobre o QRO Agendar, estamos aqui para te ajudar a crescer.</p>
+                    <p className="py-6 text-gray-600">Conecte com o Google e entre na conversa!</p>
                     <button onClick={handleLogin} className="btn btn-primary bg-neutral border-neutral hover:bg-slate-600 hover:border-slate-600 ">Login com Google</button>
                 </div>
             </div>
